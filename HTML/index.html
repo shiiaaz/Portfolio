@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alshiyana Cabase's Portfolio showcasing skills in Computer Science and UI/UX Design.">
+    <meta name="keywords" content="portfolio, web development, UI/UX design, computer science, Alshiyana Cabase">
+    <meta name="author" content="Alshiyana Cabase">
+    <title>Alshiyana Cabase Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <span class="logo">Alshiyana<span> Gwen </span></span>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-img">
+                <img src="./assets/image1.jpg" alt="Alshiyana Gwen Cabase" />
+            </div>
+
+            <div class="home-content">
+                <h1>Hello, <span>I'm</span></h1>
+                <h3>Alshiyana Gwen Cabase</h3>
+                <p>Computer Science Student | UI / UX Designer</p>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/shiiaaz/" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://github.com/shiiaaz" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.facebook.com/shiagwen.gonzaga/" target="_blank" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="tel:09993043573" aria-label="Phone"><i class='bx bxs-phone'></i></a>
+                </div>
+
+                <a href="./assets/cv.pdf" download class="btn">Download Resume</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <!-- About Me Section -->
+                <div class="about-section">
+                    <div class="about-img">
+                        <img src="./assets/image1.jpg" alt="About Me" />
+                    </div>
+                    <div class="about-content">
+                        <h2 class="heading">
+                            <span class="light-text1">Profile</span><br>
+                            <span class="bold-text1">Overview</span>
+                        </h2>
+                        <p>
+                            I am a third-year Computer Science student with a deep interest in technology and creativity.
+                            While I’m still learning and growing, I’m driven by curiosity and a desire to improve my skills. 
+                            I constantly seek new challenges that help me expand my knowledge and gain valuable experience. 
+                            My journey is one of continuous learning, and I strive to contribute to meaningful projects that can make a positive difference. Whether through coding or creative problem-solving,
+                            I am eager to turn ideas into reality and learn from each step along the way.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Review My Background Section -->
+                <div class="background-review">
+                    <h2 class="background-heading">
+                        <span class="light-text">Explore My</span><br>
+                        <span class="bold-text">Expertise</span>
+                    </h2>
+                    <div class="skills">
+                        <div class="skills-content">
+                            <div class="skill-box">
+                                <h3>Web Development</h3>
+                                <p>Basic knowledge of HTML, CSS, JavaScript</p>
+                            </div>
+                            <div class="skill-box">
+                                <h3>Database Management</h3>
+                                <p>Basic understanding of SQL, MongoDB</p>
+                            </div>
+                            <div class="skill-box">
+                                <h3>Version Control</h3>
+                                <p>Basic experience with Git, GitHub</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Education Section -->
+                    <div class="education">
+                        <span class="light-text">College</span><br>
+                        <span class="bold-text">Education</span>
+                        <div class="education-content">
+                            <div class="education-box">
+                                <h3>Bachelor of Science in Computer Science</h3>
+                                <p>Cavite State University - Bacoor Campus</p>
+                                <p>2022 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project" id="project">
+            <h2 class="heading">
+                <span class="light-text2">Featured</span><br>
+                <span class="bold-text2">Projects</span>
+            </h2>
+
+            <div class="project-container">
+                <div class="project-box">
+                    <div class="project-img">
+                        <img src="./assets/luto.png" alt="LUTO Project" />
+                    </div>
+                    <div class="project-info">
+                        <h4>LUTO</h4>
+                        <p>A Culinary Community App for Sharing, Voting, and Discovering Recipes.</p>
+                        <a href="https://github.com/shiiaaz/LUTO-WebApp.git" class="btn" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <div class="project-img1">
+                        <img src="./assets/Cavite_State_University_(CvSU).png" alt="My Checklist Project" />
+                    </div>
+                    <div class="project-info">
+                        <h4>My Checklist</h4>
+                        <p>My Checklist is a web application connected to a database that collects essential personal details, course grades, etc. This checklist provides a comprehensive overview of student progress.</p>
+                        <a href="https://github.com/shiiaaz/Checklist.git" class="btn" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="7dc359fe-937c-4802-8781-ffd347b9f881">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" name="full_name" required>
+                    <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" placeholder="Phone Number" name="phone" pattern="[0-9]{11}" required>
+                    <input type="text" placeholder="Subject" name="subject" required>
+                </div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="social">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/shiiaaz/" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/shiiaaz" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/shiagwen.gonzaga/" target="_blank" aria-label="Facebook"><i class='bx bxl-facebook-square'></i></a>
+                <a href="tel:09993043573" aria-label="Phone"><i class='bx bxs-phone'></i></a>
+            </div>
+        </div>
+        <ul class="list">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">© Alshiyana Gwen | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
